@@ -1,0 +1,42 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*menu vertical*/
+
+#vertical{
+	margin-top: 10px;
+}
+
+nav ul li{
+	height: 50px;
+	width: 300px;
+	list-style: none;
+	text-align: justify-all;
+	padding-top: 13px;
+	padding-left: 10px;
+	background-color: #E5E0E0;
+	cursor: pointer;
+	display: block;
+
+}
+
+ul li:first-child{
+	background-color: #F99B07;
+
+}
+
+ul li:hover{
+	background-color: #CDCCCC;
+}
+ul li:active{
+	background-color: #2D2929;
+}
+
+ul li a{
+	text-decoration:none;
+	color: #000;
+}
+
+
+
